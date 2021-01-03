@@ -1,0 +1,9 @@
+1. To install github - one time task
+go to cmd and cd to the folder where you are storing the data
+cmd> conda install -c anaconda git
+
+2. To clone the data from Git hub repository
+FOR BOARD GAME: We need https://github.com/ThaWeatherman/scrapers. 
+Clone this entire repository and then only keep the games.csv file from boardgamegeek folder. You can delete the rest.
+
+cmd> git clone https://github.com/ThaWeatherman/scrapers.git
