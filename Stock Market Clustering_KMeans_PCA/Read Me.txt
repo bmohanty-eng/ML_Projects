@@ -1,0 +1,29 @@
+This model uses KMeans and PCA to cluster similar companies together using stock market movements.
+
+This explores the following topics:
+
+1. Importing data from URL (Yahoo Finance)
+2. creating Data dictionary of Company names and their tickers
+3. sort and lambda function to sort the data.
+
+4. Use pandas_reader.data.DataReader to load the desired stock data
+5. Transpose the stock_close and Open data (either using np or Pandas) 
+6. Subtract the values to calculate movements.(use np or Pandas) 
+
+7. Visualization of the Data (EDA)
+8. Use subplots to visualize (say) 2 companies
+9. Normalize the data so the stock movements are normalized. Else the algorithm will group based on size vs. stock movement pattern
+Use standard scaler or normalizer from sklearn.preprocessing and compare the stock movements
+10. Perform KMeans (use pipeline in scikit learn if needed). Use 10 clusters (can play with cluster #s).
+
+11. Implement PCA to reduce the dimensionality of the data set to 2
+12. Then run KMeans again on the new dataset to plot and visualize
+
+
+
+
+
+
+
+
+
